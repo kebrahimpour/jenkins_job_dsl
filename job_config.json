@@ -1,519 +1,520 @@
-
-"rootkey": {
-    "metadata": [
-      [
-      "metadata_loop.txt"
-      ],
-      [
-
-      ]
-    ],
-    "production": [
-      [
-      "resetCamera.txt",
-      "runTemperatureCylceTest_withMultipleCams.txt",
-      "set_bq_settings.txt"
-      ],
-      [
-
-      ]
-    ],
-    "mvf2": [
-      [
-      "control_eyepiece_heater.txt"
-      ],
-      [
-
-      ]
-    ],
-    "recording": [
-      [
-      "crcCheck_ArriRaw.txt",
-      "recording_basics.txt",
-      "recording_clips_for_art.txt",
-      "recording_interval.txt",
-      "recording_loop.txt",
-      "recording_loop_climate_chamber.txt",
-      "recording_loop_withSensorTempAlignment.txt",
-      "recording_reel_count.txt",
-      "recording_withClipErase.txt",
-      "recrun_prerec.txt",
-      "rejected_recording_settings.txt"
-      ],
-      [
-      "full_Pia_Arriraw_OG",
-      "full_Pia_Arriraw_UHD",
-      "full_Pia_ProRes_OG",
-      "full_Pia_ProRes_UHD",
-      "regressionExtended_Pia_Arriraw_OG",
-      "regressionExtended_Pia_Arriraw_UHD",
-      "regressionExtended_Pia_ProRes_OG",
-      "regressionExtended_Pia_ProRes_UHD",
-      "regressionSmall_Pia_Arriraw_OG",
-      "regressionSmall_Pia_Arriraw_UHD",
-      "regressionSmall_Pia_ProRes_OG",
-      "regressionSmall_Pia_ProRes_UHD",
-      "smoke_Pia_Arriraw_OG",
-      "smoke_Pia_Arriraw_UHD",
-      "smoke_Pia_ProRes_OG",
-      "smoke_Pia_ProRes_UHD",
-      "smoke_Pia_prerec_ARRIRAW_16by9_4K6",
-      "smoke_Pia_prerec_ARRIRAW_16by9_4K6_maxSFPS",
-      "smoke_Pia_prerec_ARRIRAW_2by1_4K",
-      "smoke_Pia_prerec_ARRIRAW_2by1_4K_maxSFPS",
-      "smoke_Pia_prerec_ARRIRAW_3K3_6by5",
-      "smoke_Pia_prerec_ARRIRAW_3K3_6by5_maxSFPS",
-      "smoke_Pia_prerec_ARRIRAW_3K_1by1",
-      "smoke_Pia_prerec_ARRIRAW_3K_1by1_maxSFPS",
-      "smoke_Pia_prerec_ARRIRAW_4K_16by9",
-      "smoke_Pia_prerec_ARRIRAW_4K_16by9_maxSFPS",
-      "smoke_Pia_prerec_ARRIRAW_OG",
-      "smoke_Pia_prerec_ARRIRAW_OG_maxSFPS",
-      "smoke_Pia_prerec_ARRIRAW_UHD_16by9",
-      "smoke_Pia_prerec_ARRIRAW_UHD_16by9_maxSFPS",
-      "smoke_Pia_prerec_PRORES_16by9_2K",
-      "smoke_Pia_prerec_PRORES_16by9_2K_maxSFPS",
-      "smoke_Pia_prerec_PRORES_16by9_4K6_4K",
-      "smoke_Pia_prerec_PRORES_16by9_4K6_4K_maxSFPS",
-      "smoke_Pia_prerec_PRORES_16by9_HD",
-      "smoke_Pia_prerec_PRORES_16by9_HD_maxSFPS",
-      "smoke_Pia_prerec_PRORES_16by9_S16_2K",
-      "smoke_Pia_prerec_PRORES_16by9_S16_2K_maxSFPS",
-      "smoke_Pia_prerec_PRORES_2K7_8by9",
-      "smoke_Pia_prerec_PRORES_2K7_8by9_maxSFPS",
-      "smoke_Pia_prerec_PRORES_2by1_3K8_Ana",
-      "smoke_Pia_prerec_PRORES_2by1_3K8_Ana_maxSFPS",
-      "smoke_Pia_prerec_PRORES_2by1_4K",
-      "smoke_Pia_prerec_PRORES_2by1_4K_maxSFPS",
-      "smoke_Pia_prerec_PRORES_3K3_6by5",
-      "smoke_Pia_prerec_PRORES_3K3_6by5_maxSFPS",
-      "smoke_Pia_prerec_PRORES_3K_1by1",
-      "smoke_Pia_prerec_PRORES_3K_1by1_maxSFPS",
-      "smoke_Pia_prerec_PRORES_4K_16by9",
-      "smoke_Pia_prerec_PRORES_4K_16by9_maxSFPS",
-      "smoke_Pia_prerec_PRORES_6by5_3K3_4K_Ana",
-      "smoke_Pia_prerec_PRORES_6by5_3K3_4K_Ana_maxSFPS",
-      "smoke_Pia_prerec_PRORES_OG",
-      "smoke_Pia_prerec_PRORES_OG_maxSFPS",
-      "smoke_Pia_prerec_PRORES_UHD_16by9",
-      "smoke_Pia_prerec_PRORES_UHD_16by9_maxSFPS"
-      ]
-    ],
-    "webremote": [
-      [
-      "camera_settings_delay.txt",
-      "checkbox_behaviour.txt",
-      "deactivated_menu.txt",
-      "erase_media.txt",
-      "evf_monitor_settings.txt",
-      "exposure_index_menu.txt",
-      "fps_menu.txt",
-      "frame_lines.txt",
-      "full_media.txt",
-      "home_screen_WB.txt",
-      "home_screen_info.txt",
-      "home_screen_nd.txt",
-      "home_screen_timecode.txt",
-      "invalid_textbox_entry.txt",
-      "jam_sync_error.txt",
-      "look_menu.txt",
-      "main_menu_navigation.txt",
-      "media_menu.txt",
-      "menu_dropdown_behavior.txt",
-      "menu_textbox.txt",
-      "menu_value_list.txt",
-      "menu_value_slider.txt",
-      "night_mode.txt",
-      "path_accessability.txt",
-      "playback_menu.txt",
-      "popup_logfile_export.txt",
-      "project_setting_popup.txt",
-      "recording_menu.txt",
-      "sdi_configuration.txt",
-      "setup_invalid_name.txt",
-      "setup_menu.txt",
-      "shutter_menu.txt",
-      "swipe_scroll_functionality.txt",
-      "user_buttons.txt",
-      "version_info.txt"
-      ],
-      [
-
-      ]
-    ],
-    "update": [
-      [
-      "license_check.txt",
-      "update_1_updateLoop_Flash.txt",
-      "update_1_updateLoop_Flash_Alexa.txt",
-      "update_1_updateLoop_PC_Alexa.txt",
-      "update_2_componentUpdate.txt",
-      "update_basic.txt"
-      ],
-      [
-      "basic_Pia",
-      "basic_Pia_update_basic",
-      "full_Pia",
-      "full_Pia_update_basic",
-      "regressionExtended_Pia",
-      "regressionExtended_Pia_update_basic",
-      "regressionSmall_Pia",
-      "regressionSmall_Pia_update_basic",
-      "smoke_Pia",
-      "smoke_Pia_update_basic",
-      "updateOnly_Pia",
-      "updateOnly_Pia_update_basic"
-      ]
-    ],
-    "timecode": [
-      [
-      "timecode_jamSync.txt",
-      "timecode_reboot_stability.txt"
-      ],
-      [
-
-      ]
-    ],
-    "general": [
-      [
-      "application_unit_test.txt",
-      "check_camera_performance.txt",
-      "check_ecc_error_handling.txt",
-      "check_errors_present.txt",
-      "check_factory_reset.txt",
-      "check_factory_reset_loop.txt",
-      "check_logfile.txt",
-      "check_sensor_param_logging.txt",
-      "ci_commands_basic.txt",
-      "codex_fw_update.txt",
-      "efVirtual_button_press.txt",
-      "execute_python_script.robot",
-      "logSpamDetection.txt",
-      "ndFilter_Stress_Test.txt",
-      "nested_Loop_Test.txt",
-      "sensoric_data_logging.txt",
-      "smokeTest_Janitor.txt",
-      "virtual_button_press.txt"
-      ],
-      [
-      "smoke_ndFilter_Pia"
-      ]
-    ],
-    "referencecalculator_comparison": [
-      [
-      "reference_calculator_test_pia.robot"
-      ],
-    [
-    "smoke_refCalcTest_Pia"
-    ]
-    ],
-    "hi5": [
-      [
-      "demo.txt"
-      ],
-      [
-
-      ]
-    ],
-    "featureToggle": [
-      [
-      "feature_toggle_demo.txt"
-      ],
-      [
-
-      ]
-      ],
-    "climatechamber": [
-      [
-      "climatechamber_auto.txt",
-      "climatechamber_minilf.txt",
-      "climatechamber_reboot.txt",
-      "fanspeed_ramp.txt",
-      "min_max_ambient_temperature.txt",
-      "power_plug_control_telnet.txt"
-      ],
-      [
-
-      ]
-    ],
-    "playback": [
-      [
-      "playback_check_last_clip.txt",
-      "playback_performance.txt",
-      "playback_play_end_mode.txt",
-      "playback_play_pause_skip.txt",
-      "playback_record_from_playback.txt",
-      "playback_speed.txt",
-      "playback_start_end.txt",
-      "playback_start_end_loop.txt",
-      "playback_step_framewise.txt"
-      ],
-      [
-
-      ]
-    ],
-    "audio": [
-      [
-      "audio_settingsRecRebootCheck.txt",
-      "in_camera_sdi_av_sync_check_for_16by9_2K.robot",
-      "in_camera_sdi_av_sync_check_for_16by9_4K.robot",
-      "in_camera_sdi_av_sync_check_for_16by9_4K6.robot",
-      "in_camera_sdi_av_sync_check_for_16by9_4K6_4K.robot",
-      "in_camera_sdi_av_sync_check_for_16by9_HD.robot",
-      "in_camera_sdi_av_sync_check_for_16by9_S16_2K.robot",
-      "in_camera_sdi_av_sync_check_for_16by9_UHD.robot",
-      "in_camera_sdi_av_sync_check_for_1by1_3K.robot",
-      "in_camera_sdi_av_sync_check_for_2by1_3K8_Ana.robot",
-      "in_camera_sdi_av_sync_check_for_2by1_4K.robot",
-      "in_camera_sdi_av_sync_check_for_6by5_3K3_4K_Ana.robot",
-      "in_camera_sdi_av_sync_check_for_6by5_3_3K.robot",
-      "in_camera_sdi_av_sync_check_for_8by9_2_7K.robot",
-      "in_camera_sdi_av_sync_check_for_OpenGate.robot"
-      ],
-      [
-
-      ]
-    ],
-    "capServer": [
-      [
-      "capCommands.txt",
-      "capFrameGrab.txt",
-      "capFrameline.txt",
-      "capLensParameters.txt",
-      "capLookFile.txt",
-      "capMediaStatus.txt",
-      "capSetGetParameter.txt",
-      "capSetup.txt",
-      "capUnitTests.txt",
-      "capVariableSubscription.txt",
-      "checkCap.txt"
-      ],
-      [
-
-      ]
-    ],
-    "reboot": [
-      [
-      "reboot_basic.txt",
-      "reboot_with_configFile.txt"
-      ],
-      [
-      "basic_PIA",
-      "full_Pia",
-      "regressionExtended_Pia",
-      "regressionSmall_Pia",
-      "smoke_Pia"
-      ]
-    ],
-    "geoFramework": [
-      [
-      "geoFrameworkTest.txt"
-      ],
-      [
-
-      ]
-    ],
-    "runMultipleTests": [
-      [
-      "runAudioTests.robot",
-      "runButtonTests.robot",
-      "runImagePathTests.robot",
-      "runMetadataTests.robot",
-      "runNdFilterTests.robot",
-      "runPlaybackTests.robot",
-      "runRebootTests.robot",
-      "runRecordingTests.robot",
-      "runSdiTests.robot",
-      "runSensorFpgaTests.robot",
-      "runWebremote2Tests.robot"
-      ],
-      [
-
-      ]
-    ],
-    "lighting": [
-      [
-      "color_wheel.txt",
-      "jupiter_CP_DOM_test.txt",
-      "jupiter_evaluation.txt",
-      "lips_NaturalMeasure.txt",
-      "lips_test.txt",
-      "main-application_evaluation.txt",
-      "skypanel_measure.txt",
-      "wbCalibTest_Mini.txt"
-      ],
-      [
-
-      ]
-    ],
-    "basedir": [
-    "/home/ebrahimp/Work/robot/tests"
-    ],
-    "storage_media_qualification": [
-      [
-      "SMQ_erase_fail_test.txt",
-      "SMQ_power_fail_test.txt",
-      "power_interrupt.txt",
-      "storage_media_speedtest.txt",
-      "temperature_threshold_for_media_ready.txt"
-      ],
-      [
-      "regressionExtended_Pia",
-      "regressionSmall_Pia",
-      "smoke_Pia"
-      ]
-    ],
-    "prores_verification": [
-      [
-      "prores_verification.robot"
-      ],
-      [
-
-      ]
-    ],
-    "sensors": [
-      [
-      "calibration_firmware.txt",
-      "check_sensor_alive.txt"
-      ],
-      [
-
-      ]
-    ],
-    "imagepath": [
-      [
-      "3dlut_stabilityTest.txt",
-      "alf2Verify.txt",
-      "availableFramelinesCheck.txt",
-      "ddpc.txt",
-      "ddpc_staticDeadPixel.txt",
-      "falsecolor_comparison.txt",
-      "frame_grab_loop.txt",
-      "frame_grab_loop_AmiraMini.txt",
-      "lookLibrary_AmiraMini.txt",
-      "mvf_semiAutoTest_visualCheck.txt",
-      "recording_resolutions_geo_test.robot",
-      "recording_resolutions_test.robot",
-      "sdi_dependencyTest.txt",
-      "sdi_manualMeassureTest.txt",
-      "sdi_mvf_outputEssenceTest.txt",
-      "sdi_outputFormatTest.txt",
-      "sdi_switchTest.txt",
-      "sdi_transitionTest.txt",
-      "syncTimecode_SemiAutoTest_AmiraMini.txt",
-      "testChartAutoCompare.txt",
-      "testChartSUPcompare.txt",
-      "whitebalance.txt",
-      "zoomTests.txt"
-      ],
-      [
-
-      ]
-    ],
-    "examples": [
-      [
-      "clcu_function_demo.txt",
-      "climate_chamber_control_demo.txt",
-      "image_analysis_demo.txt",
-      "selenium_demo.txt",
-      "small_demos_bucket.txt",
-      "tearing_and_artifact_check_demo.txt",
-      "test_template.txt",
-      "webremote_swipe_demo.txt"
-      ],
-      [
-
-      ]
-    ],
-    "setup": [
-      [
-      "settings_check.txt",
-      "setupFile_creator_amira.txt",
-      "setupFile_creator_mila.txt",
-      "setupFile_creator_mini.txt"
-      ],
-      [
-
-      ]
-    ],
-    "sdi": [
-      [
-      "basic_sdi_output_format_test_for_422_120G.robot",
-      "basic_sdi_output_format_test_for_422_15G.robot",
-      "basic_sdi_output_format_test_for_422_30G.robot",
-      "basic_sdi_output_format_test_for_422_60G.robot",
-      "basic_sdi_output_format_test_for_444_120G.robot",
-      "basic_sdi_output_format_test_for_444_30G.robot",
-      "extended_sdi_output_format_test_for_422_120G.robot",
-      "extended_sdi_output_format_test_for_422_15G.robot",
-      "extended_sdi_output_format_test_for_422_30G.robot",
-      "extended_sdi_output_format_test_for_422_60G.robot",
-      "extended_sdi_output_format_test_for_444_120G.robot",
-      "extended_sdi_output_format_test_for_444_30G.robot",
-      "independent_sdi_configuration_test.robot",
-      "major_states_sdi_output_format_test_for_422_120G.robot",
-      "major_states_sdi_output_format_test_for_422_15G.robot",
-      "major_states_sdi_output_format_test_for_422_30G.robot",
-      "major_states_sdi_output_format_test_for_422_60G.robot",
-      "major_states_sdi_output_format_test_for_444_120G.robot",
-      "major_states_sdi_output_format_test_for_444_30G.robot",
-      "processed_sdi_output_format_test_for_422_120G.robot",
-      "processed_sdi_output_format_test_for_422_15G.robot",
-      "processed_sdi_output_format_test_for_422_30G.robot",
-      "processed_sdi_output_format_test_for_422_60G.robot",
-      "processed_sdi_output_format_test_for_444_120G.robot",
-      "processed_sdi_output_format_test_for_444_30G.robot",
-      "sensor_processed_sdi_output_format_test_for_422_15G.robot"
-      ],
-      [
-      "pia_independent_sdi_configuration_logc",
-      "pia_independent_sdi_configuration_statusoverlay",
-      "pia_independent_sdi_configuration_zoom"
-      ]
-    ],
-    "basic": [
-      [
-      "recording.txt"
-      ],
-      [
-
-      ]
-    ],
-    "fpga_sensor": [
-      [
-      "basic_camera_status_check.robot",
-      "basic_fpga_check_for_16by9_2K.robot",
-      "basic_fpga_check_for_16by9_4K.robot",
-      "basic_fpga_check_for_16by9_4K6.robot",
-      "basic_fpga_check_for_16by9_4K6_4K.robot",
-      "basic_fpga_check_for_16by9_HD.robot",
-      "basic_fpga_check_for_16by9_S16_2K.robot",
-      "basic_fpga_check_for_16by9_UHD.robot",
-      "basic_fpga_check_for_1by1_3K.robot",
-      "basic_fpga_check_for_2by1_3K8_Ana.robot",
-      "basic_fpga_check_for_2by1_4K.robot",
-      "basic_fpga_check_for_6by5_3K3_4K_Ana.robot",
-      "basic_fpga_check_for_6by5_3_3K.robot",
-      "basic_fpga_check_for_8by9_2_7K.robot",
-      "basic_fpga_check_for_OpenGate.robot",
-      "blacklevel_stability_at_temperature_changes.txt",
-      "blacklevel_stability_climate_chamber.txt",
-      "checkDenoising.txt",
-      "check_calibinfo_export.txt",
-      "rec_modeswitch_loop.txt",
-      "rec_stitching_LF.txt"
-      ],
-      [
-      "smoke_PiaMax",
-      "smoke_PiaMin"
-      ]
-    ],
-    "umc4": [
-      [
-      "umc4_radio_test.txt"
-      ],
-      [
-
-      ]
-    ]
+{
+    "rootkey": {
+        "metadata": [
+            [
+                "metadata_loop.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "production": [
+            [
+                "resetCamera.txt",
+                "runTemperatureCylceTest_withMultipleCams.txt",
+                "set_bq_settings.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "mvf2": [
+            [
+                "control_eyepiece_heater.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "recording": [
+            [
+                "crcCheck_ArriRaw.txt",
+                "recording_basics.txt",
+                "recording_clips_for_art.txt",
+                "recording_interval.txt",
+                "recording_loop.txt",
+                "recording_loop_climate_chamber.txt",
+                "recording_loop_withSensorTempAlignment.txt",
+                "recording_reel_count.txt",
+                "recording_withClipErase.txt",
+                "recrun_prerec.txt",
+                "rejected_recording_settings.txt"
+            ],
+            [
+                "full_Pia_Arriraw_OG",
+                "full_Pia_Arriraw_UHD",
+                "full_Pia_ProRes_OG",
+                "full_Pia_ProRes_UHD",
+                "regressionExtended_Pia_Arriraw_OG",
+                "regressionExtended_Pia_Arriraw_UHD",
+                "regressionExtended_Pia_ProRes_OG",
+                "regressionExtended_Pia_ProRes_UHD",
+                "regressionSmall_Pia_Arriraw_OG",
+                "regressionSmall_Pia_Arriraw_UHD",
+                "regressionSmall_Pia_ProRes_OG",
+                "regressionSmall_Pia_ProRes_UHD",
+                "smoke_Pia_Arriraw_OG",
+                "smoke_Pia_Arriraw_UHD",
+                "smoke_Pia_ProRes_OG",
+                "smoke_Pia_ProRes_UHD",
+                "smoke_Pia_prerec_ARRIRAW_16by9_4K6",
+                "smoke_Pia_prerec_ARRIRAW_16by9_4K6_maxSFPS",
+                "smoke_Pia_prerec_ARRIRAW_2by1_4K",
+                "smoke_Pia_prerec_ARRIRAW_2by1_4K_maxSFPS",
+                "smoke_Pia_prerec_ARRIRAW_3K3_6by5",
+                "smoke_Pia_prerec_ARRIRAW_3K3_6by5_maxSFPS",
+                "smoke_Pia_prerec_ARRIRAW_3K_1by1",
+                "smoke_Pia_prerec_ARRIRAW_3K_1by1_maxSFPS",
+                "smoke_Pia_prerec_ARRIRAW_4K_16by9",
+                "smoke_Pia_prerec_ARRIRAW_4K_16by9_maxSFPS",
+                "smoke_Pia_prerec_ARRIRAW_OG",
+                "smoke_Pia_prerec_ARRIRAW_OG_maxSFPS",
+                "smoke_Pia_prerec_ARRIRAW_UHD_16by9",
+                "smoke_Pia_prerec_ARRIRAW_UHD_16by9_maxSFPS",
+                "smoke_Pia_prerec_PRORES_16by9_2K",
+                "smoke_Pia_prerec_PRORES_16by9_2K_maxSFPS",
+                "smoke_Pia_prerec_PRORES_16by9_4K6_4K",
+                "smoke_Pia_prerec_PRORES_16by9_4K6_4K_maxSFPS",
+                "smoke_Pia_prerec_PRORES_16by9_HD",
+                "smoke_Pia_prerec_PRORES_16by9_HD_maxSFPS",
+                "smoke_Pia_prerec_PRORES_16by9_S16_2K",
+                "smoke_Pia_prerec_PRORES_16by9_S16_2K_maxSFPS",
+                "smoke_Pia_prerec_PRORES_2K7_8by9",
+                "smoke_Pia_prerec_PRORES_2K7_8by9_maxSFPS",
+                "smoke_Pia_prerec_PRORES_2by1_3K8_Ana",
+                "smoke_Pia_prerec_PRORES_2by1_3K8_Ana_maxSFPS",
+                "smoke_Pia_prerec_PRORES_2by1_4K",
+                "smoke_Pia_prerec_PRORES_2by1_4K_maxSFPS",
+                "smoke_Pia_prerec_PRORES_3K3_6by5",
+                "smoke_Pia_prerec_PRORES_3K3_6by5_maxSFPS",
+                "smoke_Pia_prerec_PRORES_3K_1by1",
+                "smoke_Pia_prerec_PRORES_3K_1by1_maxSFPS",
+                "smoke_Pia_prerec_PRORES_4K_16by9",
+                "smoke_Pia_prerec_PRORES_4K_16by9_maxSFPS",
+                "smoke_Pia_prerec_PRORES_6by5_3K3_4K_Ana",
+                "smoke_Pia_prerec_PRORES_6by5_3K3_4K_Ana_maxSFPS",
+                "smoke_Pia_prerec_PRORES_OG",
+                "smoke_Pia_prerec_PRORES_OG_maxSFPS",
+                "smoke_Pia_prerec_PRORES_UHD_16by9",
+                "smoke_Pia_prerec_PRORES_UHD_16by9_maxSFPS"
+            ]
+        ],
+        "webremote": [
+            [
+                "camera_settings_delay.txt",
+                "checkbox_behaviour.txt",
+                "deactivated_menu.txt",
+                "erase_media.txt",
+                "evf_monitor_settings.txt",
+                "exposure_index_menu.txt",
+                "fps_menu.txt",
+                "frame_lines.txt",
+                "full_media.txt",
+                "home_screen_WB.txt",
+                "home_screen_info.txt",
+                "home_screen_nd.txt",
+                "home_screen_timecode.txt",
+                "invalid_textbox_entry.txt",
+                "jam_sync_error.txt",
+                "look_menu.txt",
+                "main_menu_navigation.txt",
+                "media_menu.txt",
+                "menu_dropdown_behavior.txt",
+                "menu_textbox.txt",
+                "menu_value_list.txt",
+                "menu_value_slider.txt",
+                "night_mode.txt",
+                "path_accessability.txt",
+                "playback_menu.txt",
+                "popup_logfile_export.txt",
+                "project_setting_popup.txt",
+                "recording_menu.txt",
+                "sdi_configuration.txt",
+                "setup_invalid_name.txt",
+                "setup_menu.txt",
+                "shutter_menu.txt",
+                "swipe_scroll_functionality.txt",
+                "user_buttons.txt",
+                "version_info.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "update": [
+            [
+                "license_check.txt",
+                "update_1_updateLoop_Flash.txt",
+                "update_1_updateLoop_Flash_Alexa.txt",
+                "update_1_updateLoop_PC_Alexa.txt",
+                "update_2_componentUpdate.txt",
+                "update_basic.txt"
+            ],
+            [
+                "basic_Pia",
+                "basic_Pia_update_basic",
+                "full_Pia",
+                "full_Pia_update_basic",
+                "regressionExtended_Pia",
+                "regressionExtended_Pia_update_basic",
+                "regressionSmall_Pia",
+                "regressionSmall_Pia_update_basic",
+                "smoke_Pia",
+                "smoke_Pia_update_basic",
+                "updateOnly_Pia",
+                "updateOnly_Pia_update_basic"
+            ]
+        ],
+        "timecode": [
+            [
+                "timecode_jamSync.txt",
+                "timecode_reboot_stability.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "general": [
+            [
+                "application_unit_test.txt",
+                "check_camera_performance.txt",
+                "check_ecc_error_handling.txt",
+                "check_errors_present.txt",
+                "check_factory_reset.txt",
+                "check_factory_reset_loop.txt",
+                "check_logfile.txt",
+                "check_sensor_param_logging.txt",
+                "ci_commands_basic.txt",
+                "codex_fw_update.txt",
+                "efVirtual_button_press.txt",
+                "execute_python_script.robot",
+                "logSpamDetection.txt",
+                "ndFilter_Stress_Test.txt",
+                "nested_Loop_Test.txt",
+                "sensoric_data_logging.txt",
+                "smokeTest_Janitor.txt",
+                "virtual_button_press.txt"
+            ],
+            [
+                "smoke_ndFilter_Pia"
+            ]
+        ],
+        "referencecalculator_comparison": [
+            [
+                "reference_calculator_test_pia.robot"
+            ],
+            [
+                "smoke_refCalcTest_Pia"
+            ]
+        ],
+        "hi5": [
+            [
+                "demo.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "featureToggle": [
+            [
+                "feature_toggle_demo.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "climatechamber": [
+            [
+                "climatechamber_auto.txt",
+                "climatechamber_minilf.txt",
+                "climatechamber_reboot.txt",
+                "fanspeed_ramp.txt",
+                "min_max_ambient_temperature.txt",
+                "power_plug_control_telnet.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "playback": [
+            [
+                "playback_check_last_clip.txt",
+                "playback_performance.txt",
+                "playback_play_end_mode.txt",
+                "playback_play_pause_skip.txt",
+                "playback_record_from_playback.txt",
+                "playback_speed.txt",
+                "playback_start_end.txt",
+                "playback_start_end_loop.txt",
+                "playback_step_framewise.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "audio": [
+            [
+                "audio_settingsRecRebootCheck.txt",
+                "in_camera_sdi_av_sync_check_for_16by9_2K.robot",
+                "in_camera_sdi_av_sync_check_for_16by9_4K.robot",
+                "in_camera_sdi_av_sync_check_for_16by9_4K6.robot",
+                "in_camera_sdi_av_sync_check_for_16by9_4K6_4K.robot",
+                "in_camera_sdi_av_sync_check_for_16by9_HD.robot",
+                "in_camera_sdi_av_sync_check_for_16by9_S16_2K.robot",
+                "in_camera_sdi_av_sync_check_for_16by9_UHD.robot",
+                "in_camera_sdi_av_sync_check_for_1by1_3K.robot",
+                "in_camera_sdi_av_sync_check_for_2by1_3K8_Ana.robot",
+                "in_camera_sdi_av_sync_check_for_2by1_4K.robot",
+                "in_camera_sdi_av_sync_check_for_6by5_3K3_4K_Ana.robot",
+                "in_camera_sdi_av_sync_check_for_6by5_3_3K.robot",
+                "in_camera_sdi_av_sync_check_for_8by9_2_7K.robot",
+                "in_camera_sdi_av_sync_check_for_OpenGate.robot"
+            ],
+            [
+                
+            ]
+        ],
+        "capServer": [
+            [
+                "capCommands.txt",
+                "capFrameGrab.txt",
+                "capFrameline.txt",
+                "capLensParameters.txt",
+                "capLookFile.txt",
+                "capMediaStatus.txt",
+                "capSetGetParameter.txt",
+                "capSetup.txt",
+                "capUnitTests.txt",
+                "capVariableSubscription.txt",
+                "checkCap.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "reboot": [
+            [
+                "reboot_basic.txt",
+                "reboot_with_configFile.txt"
+            ],
+            [
+                "basic_PIA",
+                "full_Pia",
+                "regressionExtended_Pia",
+                "regressionSmall_Pia",
+                "smoke_Pia"
+            ]
+        ],
+        "geoFramework": [
+            [
+                "geoFrameworkTest.txt"
+            ],
+            [
+                
+            ]
+           ],
+        "runMultipleTests": [
+            [
+                "runAudioTests.robot",
+                "runButtonTests.robot",
+                "runImagePathTests.robot",
+                "runMetadataTests.robot",
+                "runNdFilterTests.robot",
+                "runPlaybackTests.robot",
+                "runRebootTests.robot",
+                "runRecordingTests.robot",
+                "runSdiTests.robot",
+                "runSensorFpgaTests.robot",
+                "runWebremote2Tests.robot"
+            ],
+            [
+                
+            ]
+        ],
+        "lighting": [
+            [
+                "color_wheel.txt",
+                "jupiter_CP_DOM_test.txt",
+                "jupiter_evaluation.txt",
+                "lips_NaturalMeasure.txt",
+                "lips_test.txt",
+                "main-application_evaluation.txt",
+                "skypanel_measure.txt",
+                "wbCalibTest_Mini.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "basedir": [
+            "/home/ebrahimp/Work/robot/tests"
+        ],
+        "storage_media_qualification": [
+            [
+                "SMQ_erase_fail_test.txt",
+                "SMQ_power_fail_test.txt",
+                "power_interrupt.txt",
+                "storage_media_speedtest.txt",
+                "temperature_threshold_for_media_ready.txt"
+            ],
+            [
+                "regressionExtended_Pia",
+                "regressionSmall_Pia",
+                "smoke_Pia"
+            ]
+        ],
+        "prores_verification": [
+            [
+                "prores_verification.robot"
+            ],
+            [
+                
+            ]
+        ],
+        "sensors": [
+            [
+                "calibration_firmware.txt",
+                "check_sensor_alive.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "imagepath": [
+            [
+                "3dlut_stabilityTest.txt",
+                "alf2Verify.txt",
+                "availableFramelinesCheck.txt",
+                "ddpc.txt",
+                "ddpc_staticDeadPixel.txt",
+                "falsecolor_comparison.txt",
+                "frame_grab_loop.txt",
+                "frame_grab_loop_AmiraMini.txt",
+                "lookLibrary_AmiraMini.txt",
+                "mvf_semiAutoTest_visualCheck.txt",
+                "recording_resolutions_geo_test.robot",
+                "recording_resolutions_test.robot",
+                "sdi_dependencyTest.txt",
+                "sdi_manualMeassureTest.txt",
+                "sdi_mvf_outputEssenceTest.txt",
+                "sdi_outputFormatTest.txt",
+                "sdi_switchTest.txt",
+                "sdi_transitionTest.txt",
+                "syncTimecode_SemiAutoTest_AmiraMini.txt",
+                "testChartAutoCompare.txt",
+                "testChartSUPcompare.txt",
+                "whitebalance.txt",
+                "zoomTests.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "examples": [
+            [
+                "clcu_function_demo.txt",
+                "climate_chamber_control_demo.txt",
+                "image_analysis_demo.txt",
+                "selenium_demo.txt",
+                "small_demos_bucket.txt",
+                "tearing_and_artifact_check_demo.txt",
+                "test_template.txt",
+                "webremote_swipe_demo.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "setup": [
+            [
+                "settings_check.txt",
+                "setupFile_creator_amira.txt",
+                "setupFile_creator_mila.txt",
+                "setupFile_creator_mini.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "sdi": [
+            [
+                "basic_sdi_output_format_test_for_422_120G.robot",
+                "basic_sdi_output_format_test_for_422_15G.robot",
+                "basic_sdi_output_format_test_for_422_30G.robot",
+                "basic_sdi_output_format_test_for_422_60G.robot",
+                "basic_sdi_output_format_test_for_444_120G.robot",
+                "basic_sdi_output_format_test_for_444_30G.robot",
+                "extended_sdi_output_format_test_for_422_120G.robot",
+                "extended_sdi_output_format_test_for_422_15G.robot",
+                "extended_sdi_output_format_test_for_422_30G.robot",
+                "extended_sdi_output_format_test_for_422_60G.robot",
+                "extended_sdi_output_format_test_for_444_120G.robot",
+                "extended_sdi_output_format_test_for_444_30G.robot",
+                "independent_sdi_configuration_test.robot",
+                "major_states_sdi_output_format_test_for_422_120G.robot",
+                "major_states_sdi_output_format_test_for_422_15G.robot",
+                "major_states_sdi_output_format_test_for_422_30G.robot",
+                "major_states_sdi_output_format_test_for_422_60G.robot",
+                "major_states_sdi_output_format_test_for_444_120G.robot",
+                "major_states_sdi_output_format_test_for_444_30G.robot",
+                "processed_sdi_output_format_test_for_422_120G.robot",
+                "processed_sdi_output_format_test_for_422_15G.robot",
+                "processed_sdi_output_format_test_for_422_30G.robot",
+                "processed_sdi_output_format_test_for_422_60G.robot",
+                "processed_sdi_output_format_test_for_444_120G.robot",
+                "processed_sdi_output_format_test_for_444_30G.robot",
+                "sensor_processed_sdi_output_format_test_for_422_15G.robot"
+            ],
+            [
+                "pia_independent_sdi_configuration_logc",
+                "pia_independent_sdi_configuration_statusoverlay",
+                "pia_independent_sdi_configuration_zoom"
+            ]
+        ],
+        "basic": [
+            [
+                "recording.txt"
+            ],
+            [
+                
+            ]
+        ],
+        "fpga_sensor": [
+            [
+                "basic_camera_status_check.robot",
+                "basic_fpga_check_for_16by9_2K.robot",
+                "basic_fpga_check_for_16by9_4K.robot",
+                "basic_fpga_check_for_16by9_4K6.robot",
+                "basic_fpga_check_for_16by9_4K6_4K.robot",
+                "basic_fpga_check_for_16by9_HD.robot",
+                "basic_fpga_check_for_16by9_S16_2K.robot",
+                "basic_fpga_check_for_16by9_UHD.robot",
+                "basic_fpga_check_for_1by1_3K.robot",
+                "basic_fpga_check_for_2by1_3K8_Ana.robot",
+                "basic_fpga_check_for_2by1_4K.robot",
+                "basic_fpga_check_for_6by5_3K3_4K_Ana.robot",
+                "basic_fpga_check_for_6by5_3_3K.robot",
+                "basic_fpga_check_for_8by9_2_7K.robot",
+                "basic_fpga_check_for_OpenGate.robot",
+                "blacklevel_stability_at_temperature_changes.txt",
+                "blacklevel_stability_climate_chamber.txt",
+                "checkDenoising.txt",
+                "check_calibinfo_export.txt",
+                "rec_modeswitch_loop.txt",
+                "rec_stitching_LF.txt"
+            ],
+            [
+                "smoke_PiaMax",
+                "smoke_PiaMin"
+            ]
+        ],
+        "umc4": [
+            [
+                "umc4_radio_test.txt"
+            ],
+            [
+                
+            ]
+        ]
+    }
 }
